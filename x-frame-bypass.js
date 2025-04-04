@@ -40,6 +40,7 @@ customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 	</style>
 </head>
 <body>
+<div class="loader"></div>
 </body>
 </html>`
 		this.fetchProxy(url, options, 0).then(res => res.text()).then(data => {
